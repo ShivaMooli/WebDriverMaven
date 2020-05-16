@@ -24,6 +24,7 @@ public class LoginTest {
 		driver.get("http://gmail.com");
 		driver.findElement(By.id("identifierId")).sendKeys("shiva@way2automation,com");
 		driver.findElement(By.xpath("//*[text()='Next']")).click();
+		driver.findElement(By.id("password")).sendKeys("onfvojead");
 	}
 	
 	@AfterTest
